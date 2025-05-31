@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Macinto\u0027ks\\source\\repos\\UniHive\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF09B7-5225-4491-9530-09E3A79ADBB7}|UniHive\\UniHive.csproj|c:\\users\\macinto\u0027ks\\source\\repos\\unihive\\unihive\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF09B7-5225-4491-9530-09E3A79ADBB7}|UniHive\\UniHive.csproj|solutionrelative:unihive\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Macinto\u0027ks\\source\\repos\\UniHive\\UniHive\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UniHive\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Macinto\u0027ks\\source\\repos\\UniHive\\UniHive\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UniHive\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T13:15:52.979Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
