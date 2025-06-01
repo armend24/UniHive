@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "UniHive\\Program.cs",
               "ToolTip": "C:\\Users\\Macinto\u0027ks\\source\\repos\\UniHive\\UniHive\\Program.cs",
               "RelativeToolTip": "UniHive\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T15:13:39.762Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "UniHive\\DataAccess\\DbHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T14:12:41.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T14:12:41.973Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "UniHive\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-31T13:47:50.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T13:47:50.031Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "UniHive\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T13:15:52.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T13:15:52.979Z"
             }
           ]
         }
