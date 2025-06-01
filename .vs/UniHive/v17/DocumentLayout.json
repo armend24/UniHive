@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Macinto\u0027ks\\source\\repos\\UniHive\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55EF09B7-5225-4491-9530-09E3A79ADBB7}|UniHive\\UniHive.csproj|c:\\users\\macinto\u0027ks\\source\\repos\\unihive\\unihive\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF09B7-5225-4491-9530-09E3A79ADBB7}|UniHive\\UniHive.csproj|solutionrelative:unihive\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF09B7-5225-4491-9530-09E3A79ADBB7}|UniHive\\UniHive.csproj|c:\\users\\macinto\u0027ks\\source\\repos\\unihive\\unihive\\dataaccess\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EF09B7-5225-4491-9530-09E3A79ADBB7}|UniHive\\UniHive.csproj|solutionrelative:unihive\\dataaccess\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EF09B7-5225-4491-9530-09E3A79ADBB7}|UniHive\\UniHive.csproj|c:\\users\\macinto\u0027ks\\source\\repos\\unihive\\unihive\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{55EF09B7-5225-4491-9530-09E3A79ADBB7}|UniHive\\UniHive.csproj|solutionrelative:unihive\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55EF09B7-5225-4491-9530-09E3A79ADBB7}|UniHive\\UniHive.csproj|c:\\users\\macinto\u0027ks\\source\\repos\\unihive\\unihive\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55EF09B7-5225-4491-9530-09E3A79ADBB7}|UniHive\\UniHive.csproj|solutionrelative:unihive\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,6 +35,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Macinto\u0027ks\\source\\repos\\UniHive\\UniHive\\Program.cs",
+              "RelativeDocumentMoniker": "UniHive\\Program.cs",
+              "ToolTip": "C:\\Users\\Macinto\u0027ks\\source\\repos\\UniHive\\UniHive\\Program.cs",
+              "RelativeToolTip": "UniHive\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:13:39.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Macinto\u0027ks\\source\\repos\\UniHive\\UniHive\\DataAccess\\DbHelper.cs",
+              "RelativeDocumentMoniker": "UniHive\\DataAccess\\DbHelper.cs",
+              "ToolTip": "C:\\Users\\Macinto\u0027ks\\source\\repos\\UniHive\\UniHive\\DataAccess\\DbHelper.cs",
+              "RelativeToolTip": "UniHive\\DataAccess\\DbHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:12:41.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Macinto\u0027ks\\source\\repos\\UniHive\\UniHive\\appsettings.json",
+              "RelativeDocumentMoniker": "UniHive\\appsettings.json",
+              "ToolTip": "C:\\Users\\Macinto\u0027ks\\source\\repos\\UniHive\\UniHive\\appsettings.json",
+              "RelativeToolTip": "UniHive\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-31T13:47:50.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Macinto\u0027ks\\source\\repos\\UniHive\\UniHive\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "UniHive\\Controllers\\HomeController.cs",
@@ -30,8 +79,7 @@
               "RelativeToolTip": "UniHive\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T13:15:52.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T13:15:52.979Z"
             }
           ]
         }

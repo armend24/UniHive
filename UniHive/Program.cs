@@ -1,8 +1,12 @@
+using UniHive.DataAccess;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+// We use singleton here to ensure that the DbHelper instance is reused across the application lifetime.
+// That is because it is stateless and does not hold any data that changes during the application lifetime.
+builder.Services.AddSingleton<DbHelper>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
