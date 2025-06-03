@@ -16,11 +16,9 @@
         <div class="password-wrapper-outer">
             <input type="password" id="passwordInput" name="Password" placeholder="Password"/>
         </div>
-
         <button type="submit" class="login-btn">Login</button>
 
         <p id="clientErrorMessage" class="error-message" style="display:none;"></p>
-
         @if (!string.IsNullOrEmpty(Model?.ErrorMessage))
         {
             <p class="error-message">@Model.ErrorMessage</p>
@@ -102,3 +100,39 @@
     }
 
 </style>
+
+
+<script>
+
+
+    // also don't forget to add validation for when u leave the email and psw field sempty
+    // Added.
+    document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector("form");
+        const errorDisplay = document.getElementById("clientErrorMessage");
+        
+        if(form) {
+            form.addEventListener("submit", function (e) {
+                const username = form.querySelector("input[name = 'Username']");
+                const password = form.querySelector("input[name = 'Password']");
+
+                if(!username.value.trim() || !password.value.trim()) {
+                    e.preventDefault();
+                    errorDisplay.textContent = "Email or password must not be empty!";
+                    errorDisplay.style.display = "block";
+                } 
+                else {
+                    errorDisplay.style.display = "none";
+                }
+            });
+        }
+    });
+
+    // for potential future use if you decide to do a specific design on the eye toggle thingie at the password
+
+    //function togglePassword(){
+    //    const input = document.getElementById("paswordInput");
+    //    input.type = input.type === "password" ? "text" : "password";
+    //}     
+    
+</script>
