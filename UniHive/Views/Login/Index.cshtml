@@ -1,0 +1,104 @@
+﻿@model UniHive.Models.LoginViewModel
+    
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Login";
+}
+
+<div class="login-container">
+    <h2>Login</h2>
+
+    <form method="post" class="login-form" novalidate>
+        <div class="input-wrapper">
+            <input type="text" name="Username" placeholder="Username" />
+        </div>
+
+        <div class="password-wrapper-outer">
+            <input type="password" id="passwordInput" name="Password" placeholder="Password"/>
+        </div>
+
+        <button type="submit" class="login-btn">Login</button>
+
+        <p id="clientErrorMessage" class="error-message" style="display:none;"></p>
+
+        @if (!string.IsNullOrEmpty(Model?.ErrorMessage))
+        {
+            <p class="error-message">@Model.ErrorMessage</p>
+        }
+    </form>
+
+</div>
+
+<style>
+
+    .login-container {
+        max-width: 400px;
+        margin: 80px auto; 
+        padding: 30px;
+        background-color: #f8f9fa;
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    
+    .login-form input {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc; 
+        border-radius: 6px;
+        box-sizing: border-box;
+    }
+
+    .input-wrapper {
+        width: 100%;
+        margin-bottom: 15px; 
+    }
+
+    .password-wrapper-outer {
+        width: 100%;
+        margin-bottom: 15px; 
+    }
+
+    .input-wrapper input,
+    .password-wrapper-outer input {
+        width: 100%;
+     }
+
+    .password-wrapper-outer {
+        display: flex;
+        align-items: center;
+        gap: 6px; 
+    }
+
+    .toggle-password-btn {
+        cursor: pointer;
+        font-size: 20px;
+        padding: 6px;
+    }
+
+    
+    .login-btn {
+        width: 100%;
+        padding: 10px;
+        background-color: #807bff;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .login-btn:hover { 
+            background-color: #8856b3;
+        }
+
+    
+    .error-message {
+        color: red;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+</style>
