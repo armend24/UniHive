@@ -85,7 +85,11 @@
 <body>
     <div class="wrapper">
         <header style="display: flex; justify-content: space-between; align-items: center; background: #807bff; color: white; padding: 10px 20px;">
-            <div class="logo" style="font-weight: bold; font-size: 24px;">🎓 UniHive</div>
+            
+            <a href="/Admin" style="text-decoration: none; color:white;"> 
+                <div class="logo" style="font-weight: bold; font-size: 24px;"> 🎓UniHive </div>    
+            </a>
+
             <div class="nav-links" style="display: flex; gap: 20px; align-items: center;">
                 @if (Context.Session.GetInt32("UserID") != null)
                 {
